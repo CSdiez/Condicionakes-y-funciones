@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@200;400;700&display=swap');
+
+:root{
+    --primary-color:#009BDB;
+    --secondary-color:#A31D82;
+    --white-color: #ffffff;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Jost', sans-serif;
+}
+header{
+    width: 100%;
+
+}
+.nav{
+    background-color:  var(--primary-color);
+    padding: 10px;
+    display: block;
+    margin: 0px auto;
+    text-align: center;
+}
+
+.nav a img{
+    width: 15%;
+}
+.line{
+    height: 20px;
+    background-color: var(--secondary-color);
+}
+.ejercicios{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+
+}
+.ejercicios h1{
+    margin: 35px 0px;
+
+}
+.actividades{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+  
+
+}
+.actividades article{
+    padding: 10px 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin: 15px;
+    background-color: rgba(0, 119, 255, 0.296);
+    border-radius: 10%;
+}
+.radiobuttons h2{
+    text-align: center;
+    margin-bottom: 10px;
+ }
+.radiobuttons label{
+    display: block;
+    width: auto;
+   padding: 12px;
+}
+.radiobuttons label input{
+    margin-left: 20px;
+}
+.mayor h2{
+    margin-bottom: 20px;
+}
+.mayor  label{
+    display: block;
+    width: auto;
+    margin-bottom: 20px;
+}
+.button{
+    width: 100%;
+    background-color: var(--primary-color);
+    color: var(--white-color);
+    border: none;
+    cursor: pointer;
+}
+.button:hover{
+    background-color: var(--secondary-color);
+}
+.suma h2{
+    margin-bottom: 20px;
+}
+.suma input{
+    display: block;
+    width: auto;
+    margin-bottom: 20px;
+}
+.result{
+    margin-top: 30px;
+}

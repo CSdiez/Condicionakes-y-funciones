@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Condicionakes y funciones</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <header class="header">
+        <nav class="nav">
+            <a href="https://cilsa.org/"><img src="https://www.cilsa.org/wp-content/themes/cilsa2014/images/logo_cilsa_lainclusionnosune_.png" alt="Cilsa enlace"></a>
+        </nav>
+    </header>
+
+    <div class="line"></div>
+    <section class="ejercicios">
+        <h1>EJERCICIOS</h1>
+        <div class="actividades">
+            <article class="radiobuttons">
+                <h2>ACTIVIDAD 1</h2>
+                    <label for="opcion1">Opción 1
+                        <input type="radio" name="act1" id="opcion1" >
+                    </label>
+                    <label for="opcion2">Opción 2
+                        <input type="radio" name="act1" id="opcion2">
+                    </label>
+                <button class="button" onclick="mostrar()">Averiguar</button>
+            </article>
+
+            <article class="mayor">
+                <h2>ACTIVIDAD 2</h2>
+
+                <input type="number" id="number1" placeholder=" Valor A">
+                <label for="number1"></label>
+                <input type="number" id="number2" placeholder=" Valor B">
+                <label for="number2"></label>
+                <button class="button" onclick="mayor()">=</button>
+            </article>
+
+            <article class="suma">
+                <h2>ACTIVIDAD 3</h2>
+
+                <input type="number" id="num1" placeholder=" Valor A">
+                <input type="number" id="num2" placeholder=" Valor B">
+                <button class="button" onclick="suma()">Sumar</button>
+            </article>
+        </div>
+        <h3 id="resultado1" class="result"></h3>
+    </section>
+    <script src="./script.js"></script>
+</body>
+</html>
